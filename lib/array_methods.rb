@@ -6,8 +6,8 @@ def find_element_index(array, value_to_find)
          answers << index
        end
        }
+       print answers
     index = nil
-    return answers
 end
 
 

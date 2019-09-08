@@ -1,7 +1,7 @@
-answers = []
 
 def find_element_index(array, value_to_find)
        array.length.times { |index|
+         answers = []
        if value_to_find == array[index]
          answers << index
        end

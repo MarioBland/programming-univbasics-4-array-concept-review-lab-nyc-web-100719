@@ -1,13 +1,12 @@
-
 def find_element_index(array, value_to_find)
+  answers = []
        array.length.times { |index|
-         answers = []
        if value_to_find == array[index]
          answers << index
        end
        }
-       print answers
-    index = nil
+       return answers
+       index = nil
 end
 
 

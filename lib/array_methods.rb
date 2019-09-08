@@ -12,8 +12,9 @@ end
 
 
 def find_max_value(array)
-  array.sort 
-  return array.last
+  array2 = []
+  array.sort = array2
+  return array2.last
 end
 
 def find_min_value(array)
